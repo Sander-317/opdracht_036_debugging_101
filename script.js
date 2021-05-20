@@ -9,11 +9,11 @@ const array = [
   
   for (let person of array) {
     //hier moeten console.logs komen
-    console.log(`dit is de naam:`,[person.name])
-    console.log("het geboorte jaar = ", 2021 - [person.age])
-    console.log([person.name]," is een ", [person.profession])
-    if ([person.age] >= 50){
+    console.log(`dit is de naam:`,person.name)
+    console.log("het geboorte jaar = ", 2021 - person.age)
+    console.log([person.name]," is een ", person.profession)
+    if (person.age >= 50){
         console.log("if stement werkt")
-        console.log([person.name], "ouder dan 50")
+        console.log(person.name, " is ouder dan 50")
     }
   }
